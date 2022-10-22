@@ -61,12 +61,11 @@ var BodyComponent = /** @class */ (function () {
 exports.BodyComponent = BodyComponent;
 var IconsText = document.getElementById('Main');
 var typewriter = /** @class */ (function () {
-    function typewriter(parent, _a) {
-        if (parent === void 0) { parent = IconsText; }
+    function typewriter(IconsText, _a) {
         var _b = _a === void 0 ? {} : _a, _c = _b.loop, loop = _c === void 0 ? false : _c, _d = _b.typingspeed, typingspeed = _d === void 0 ? 50 : _d, _e = _b.deletingspeed, deletingspeed = _e === void 0 ? 50 : _e;
         this.queue = [];
         this.element = document.createElement("div");
-        parent.append(this.element);
+        IconsText.append(this.element);
         this.loop = loop;
         this.typingspeed = typingspeed;
         this.deletingspeed = deletingspeed;
