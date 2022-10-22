@@ -122,6 +122,6 @@ var typewriter = /** @class */ (function () {
     };
     return typewriter;
 }());
-var typewriter1 = new typewriter(document.body, { loop: true });
-typewriter1.typestring("Linkedin");
-typewriter1.start();
+//const typewriter1 = new typewriter(document.body, {loop: true})
+//typewriter1.typestring("Linkedin")
+//typewriter1.start()

@@ -72,7 +72,7 @@ async start (){
 }
 }
 
-const typewriter1 = new typewriter(document.body, {loop: true})
+//const typewriter1 = new typewriter(document.body, {loop: true})
 
-typewriter1.typestring("Linkedin")
-typewriter1.start()
+//typewriter1.typestring("Linkedin")
+//typewriter1.start()
